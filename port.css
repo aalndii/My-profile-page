@@ -1,0 +1,129 @@
+:root {
+    --bg: #000; 
+    --card: #111;
+    --gold: #d4aF37;
+    --text: #eee;
+    --muted: #bdb6a8;
+}
+/* اعداد عام لكل العناصر */
+* {
+    box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+    font-family:'Cairo', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height:1.8;
+}
+
+/* الحاوية العامة */
+.container {
+    width: 90%;
+    max-width: 1100px;
+        margin: auto;
+}
+
+/* NAVIGATION */
+.nav{
+background: rgba(0, 0, 0, 0.7);
+position: sticky;
+top: 0px;
+backdrop-filter: blur(8px);
+border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+}
+.navInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.gold { color: var(--gold); }
+
+.navLinks a {
+color: var(--text);
+text-decoration: none;
+transition: 0.3s;
+cursor: pointer;
+}
+.navLinks a:hover { color: var(--gold);}
+
+/* زر القاىمة للموبايل */
+.burger {
+display: flex;
+flex-direction: column;
+cursor: pointer;
+    
+
+}
+.burger span {
+    background: var(--text);
+    height: 2px;
+    width: 25px;
+    margin: 4px 0;
+}
+ /* Hero section */
+.hero{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+.heroLeft h1 {color: var(--gold); font-size: 2rem;}
+.heroLeft p {color: var(--muted); margin: 15px 0;}
+.btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #000;
+    background-color: #222;
+    border: none;
+    cursor: pointer;
+    transform: 0.3s;
+}
+.btn:hover {transform: translateY(-30px); }
+.btn.gold {background: var(--gold); color: #111;}
+.profileCard {
+    margin-top: 70px;
+    background: var(--card);
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(248, 5, 5, 0.5);
+}
+.avatar img{
+    background: rgba(212, 175, 55, 0.2);
+    color: var(--gold);
+    width: 80px;
+    height: 100px;
+    border: 50%;
+}
+/* SECTIONS */
+.section{padding: 60px 0;}
+.section h2 {color: var(--gold); margin-bottom: 15px;}
+/* المهارات */
+.alo{ 
+    display: grid;
+    grid-template-columns:repeat (auto-fit,minmax(160px, 1fr));
+    gap: 15px;
+}
+.skill {
+    background: var(--card);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.4s;
+}
+.skill:hover {
+    transform: translateY(-5px);
+    background: var(--gold);
+}
+.projectsGrid {
+    display: grid;
+}
