@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal page</title>
+    <link rel="stylesheet" href="port.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شعار الموقع / الاسم -->
+<nav class="nav">
+<div class="container navInner">
+<div class="brand">Alnd<span class="gold">.</span></div>
+<!-- زر القاىمة للموبايل -->
+<button id="burger" class="burger" aria-label="menu"><span></span>
+<span></span><span></span></button>
+<!-- روابط التنقل -->
+<ul class="navLinks" id="navLinks">
+    <li><a>About</a></li>
+    <li><a>Skill</a></li>
+    <li><a>Projects</a></li>
+    <li><a>Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<!-- القسم الترحيبي -->
+<header class="hero">
+    <div class="container heroInner">
+<!-- النصوص والازرار -->
+ <div class="heroLeft">
+<h1>Hello - I'm a front-End Developer</h1>
+<p class="lead">I build elegant, fast, and interactive websites with modern design and great Ux.</p>
+<div class="heroActions"><a href="https://aalndii.github.io/portfolio-2/" class="btn gold">View Projects</a>
+    <a href="https://aalndii.github.io/Pixel_Perfect_Portfolio/" class="btn">View Projects</a>
+</div>
+ </div>
+<!-- البطاقة الجانبية -->
+<div class="heroRight">
+    <div class="card profileCard">
+        <div class="avatar"><img src="ISXX2370.JPG" alt=""></div>
+
+        <h3>ِِAlnd Khalil</h3>
+        <p class="muted">Front-End Developer</p>
+        <div class="meta">
+            <span>Location</span>
+            <span>Available for Freelance</span>
+        </div>
+    </div>
+</div>
+    </div>
+</header>
+<!-- قسم التعريف عن نفسك -->
+ <section id="about" class="section">
+    <div class="container">
+        <h2>About Me </h2>
+        <p>
+            I am a passionate web developer who loves turning ideas into real websites. I focus on details, aesthetics, and user experience.
+        </p>
+    </div>
+ </section>
+
+ <!-- قسم المهارات -->
+  <section id="skills" class="section">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="alo">
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Responsive Design</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">Tailwind / Bootstrap</div>
+            <div class="skill">>UI/UX</div>
+        </div>
+    </div>
+  </section>
+
+  <!-- قسم المشاريع -->
+   <section id="Project" class="section">
+    <div class="container">
+        <h2>Project</h2>
+        <div class="projectGrid">
+        <article class="projectCard">
+            <h3>Elegant Portfolio</h3>
+            <p>Black & gold design with full responsive layout</p>
+            <a href="#" class="projectlink">View Project</a>
+            </article>
+            <article class="projectCard">
+<h3>Task Manager</h3>
+<p>interactive To-Do List using JavaScript with localStorage</p>
+<a href="#" class="projectlink">View Project</a>
+            </article>
+<article class="projectCard">
+    <h3>Company Landing Page</h3>
+    <p>Clean landing page with contact formm ready for clients. </p>
+    <a href="#" class="projectlink">View Project</a>
+</article>
+</div>
+    </div>
+   </section>
+
+<!-- نموذج التواصل -->
+<section id="contact" class="section">
+    <div class="container">
+<h2>Contact Me</h2>
+<form id="contactForm" class="contactForm">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email Address " required>
+    <textarea name="message" placeholder="Write your message..." required></textarea>
+    <button type="submit" class="btn gold">Send</button>
+</form>
+    </div>
+</section>
+
+<!-- اسفل الصفحة -->
+<footer class="footer">
+    <div class="container">
+        <p>2025 - Alnd. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="portf.js"></script>
+</body>
+</html>
