@@ -6,9 +6,19 @@ This portfolio showcases my work, skills, and the value I bring to every project
 
 🔗 *Live Demo*: [Visit My Profile Page](https://aalndii.github.io/My-profile-page/)
 
----
 
-## 🛠️ Tech Stack & Skills
+This picture is about the beginning of the project:
+---<img width="1920" height="1080" alt="Picture about Skills" src="https://github.com/user-attachments/assets/21ab937b-e148-45be-a9ec-5414e59296e6" />
+
+ This about Skills:
+<img width="1920" height="1080" alt="The starting picture" src="https://github.com/user-attachments/assets/42959833-3903-4327-a15a-f6be482a032f" />
+
+And this about Contact:
+<img width="1920" height="1080" alt="Contact picture" src="https://github.com/user-attachments/assets/77002005-30da-4ab4-bdef-e33f360c982a" />
+
+
+## 🛠️ Tech Stack & Skills![Uploading Contact picture.png…]()
+
 
 | Category        | Skills |
 |----------------|--------|
