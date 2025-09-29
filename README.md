@@ -66,10 +66,8 @@ Optimized for all devices.
 
 ## 💬 Let's Connect!
 Whether you're looking to build a modern website, need help with frontend development, or want to collaborate — I'm here and ready to help!
-
-> *Thank you for visiting my portfolio!* 😊
-
-
-Whether you're looking to build a modern website, need help with frontend development, or want to collaborate — I'm here and ready to help!
+if you want to contact me:
+Email: abosimav@gmail.com
+Number:0931 830 635
 
 > *Thank you for visiting my portfolio!* 😊
